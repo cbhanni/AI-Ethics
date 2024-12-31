@@ -563,6 +563,176 @@ def main():
 if __name__ == '__main__':
     main()
 
+Say https or bitcoin i think is rsa 256 --> this is rsa 4096 feebie message code :) 
 
+
+"""============================================================================
+::::::::::'######:::'########::'#######:::::::::::'########:::::::::::'########::
+:::::::::'##... ##:: ##.....::'##.... ##:::::::::: ##.... ##:::::::::: ##.... ##:
+::::::::: ##:::..::: ##::::::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::'####: ######::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::: ##:: ##...:::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::: ##:: ##::::::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+'#######:. ######::: ########:. #######::'#######: ########::'#######: ########::
+.......:::......::::........:::.......:::.......::........:::.......::........:::
+
+
+:: Project:         Geographic Data Dynamics LLC (GeoDataDyna) 2024 GNU 1.3
+:: Version:         1.0
+:: Author:          Christopher Hanni (CEO and Founder)
+:: Primary Use:     Geographic Consulting and Technical Services 
+:: Email:           support@geographicdatadynamics.com ( busted :) )
+:: LinkedIn:        TBD   
+:: Website:         http://geographicdatadynamics.com  ( might be compromised , most likley )
+
+:: Description:     This module provides functions for encrypting and decrypting 
+                    messages using RSA keys. It supports:
+
+                    * Generating new RSA key pairs
+                    * Encrypting messages with your own public key
+                    * Encrypting messages with a given public key (e.g., from a sender)
+                    * Decrypting messages using your corresponding private key
+
+
+:: Acknowledgement:  This code was developed with substantial assistance from Gemini 
+:: Advanced (Google AI), providing guidance, code improvements, and debugging support.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+============================================================================= """
+
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import PKCS1_OAEP
+import binascii
+
+pubKeyPath = "/home/gda/keys/sub_main_pub_key.pem"
+privKeyPath = "/home/gda/keys/sub_main_priv_key.pem"
+
+#sample out going for public key
+msg_to_encrypt = 'Secret message text - Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor'
+
+# sample encrypted incomming message from msg_to_encrypt string binary and hex formats for privete key decrypt 
+msg_to_decrypt = b'Ry;=*\t\xf1\xdd\xa1To6]\xd1}c]\xac*\xcc\x05;{\xdc\x00c\x15\xd3\xb1\x1a5@\x93\xd7\xfea*v|\xcf\xe1m\x8e2NL\xd7\x87\xc5\x8an\xac#\xde\xb82\x1f\x966w\x84*WxyN\x8b8\x86\'.\xe0\xee\xf5\x01\xb7\xd4\xfd\xb2\xa2\x02\xd0\xec\x10\xbf\x7fT\xa0\xad0\x99\x14j!\x08\x7f5\x92\x91\xd3?\xed\xc9\xd8\x0c\xfa\xf1\xd8\x8b\xe5\xfb\xd9\xbb\x9d\x81\n>\xbf><\xf7&\xa1{\x16\x1bHe\xd2Kn\x13"\x98\xf5\xe9O\xbff\x0f\xdb2uO\xa4.\x16\xb8D\x92\x11!\xcf-\x04\x98\xb3\x1f\xd5ET\xe6)\xf3Y\xe2B\xce&\x08L\x98\xa9\xb2\xb4\x86\x15\x99\x17\x95U\xe1\xd1\xc3\xfc\xc3Z\xc0K\xdb0\xc7\x1f\xecI\xa2~\x1c\r\xea\x85\x91USF]\xafM\xaa\xaf\xe2;B|Jk\x0f\x88{\x83\x9e\xcf\xf2\x91\xba\x90\xcc\xf2\x03\xd4\x0b.\x00\xae5\xebC\xdd<\xa6\xec&\xd6\xfa\xddc\xf2\xc6\xc1\xa2[\xe1\x89\x80\xfdcj\x15\x9a\xb4kk \xac@ \x8e@\x05\xf6_\x16\x8d\xc4\x8e\x02\xb0<\x85:[m{5\x9b\xa2{\x8d\x0b\x0f/\x0co\xe8\x0f\x1a2\xa6\xc5\xd15\x8b\x1b\x9aX\xde\xdf\xcas\xb6\x7f\x13\xcf\x88\x01\x18\xce\x1f\xf8\xfaW 8\xeb\x8f\x98\x82\r\xdf\x1a\xb0S\x0b\xd0N\xa0o}\xe6\xa0u\xcb\x0e\x7f-\x12Q\x9aP\xe4\xf2\x08S\x1eT|\xb3\xd3\x86\x8c\x1f\x1fc\xb9\x0e\xbe\x9cA\xc5\x07\xd1\xb1\xa2\xe6<\x07\x1b\x84\xb0+\xcc\x83\xd1\\<\xc1\x9a\x8a\xde2\xfb\xdb\x1c\xc8\x9dx\x99;\xff\x83i\x13\x9e\x9f\xbc\\\xf5\xf6\x1ev\xdfI\x1b\xbf\xfa\xbegQ\xdd\xcb:\xda\xe7\x88\xa2F\x87\x8a^\xa7\xe8l>E5\xb7\x94\xc7\xc1,\xd5\xce$\xcb,\x18\x11\xe5\xd7\x9fx{\xedu\x8a\xc60\xd9\xb1=vfX\x0e\x148\xc1<\xe3\xea\xbc\xd0\x93\xe0\xf4\xa4g\xc53\xcdq\xd3\x9b\xea*t\xb2ZS\xdd@\xddj\x003\xd3b\x18\xf5cv\x8b\xb69:8\xc5\xb3\xf4\x13\xf3\x8b'
+msg_to_decrypt_hex = b'52793b3d2a09f1dda1546f365dd17d635dac2acc053b7bdc006315d3b11a354093d7fe612a767ccfe16d8e324e4cd787c58a6eac23deb8321f963677842a5778794e8b3886272ee0eef501b7d4fdb2a202d0ec10bf7f54a0ad3099146a21087f359291d33fedc9d80cfaf1d88be5fbd9bb9d810a3ebf3e3cf726a17b161b4865d24b6e132298f5e94fbf660fdb32754fa42e16b844921121cf2d0498b31fd54554e629f359e242ce26084c98a9b2b4861599179555e1d1c3fcc35ac04bdb30c71fec49a27e1c0dea85915553465daf4daaafe23b427c4a6b0f887b839ecff291ba90ccf203d40b2e00ae35eb43dd3ca6ec26d6fadd63f2c6c1a25be18980fd636a159ab46b6b20ac40208e4005f65f168dc48e02b03c853a5b6d7b359ba27b8d0b0f2f0c6fe80f1a32a6c5d1358b1b9a58dedfca73b67f13cf880118ce1ff8fa572038eb8f98820ddf1ab0530bd04ea06f7de6a075cb0e7f2d12519a50e4f208531e547cb3d3868c1f1f63b90ebe9c41c507d1b1a2e63c071b84b02bcc83d15c3cc19a8ade32fbdb1cc89d78993bff8369139e9fbc5cf5f61e76df491bbffabe6751ddcb3adae788a246878a5ea7e86c3e4535b794c7c12cd5ce24cb2c1811e5d79f787bed758ac630d9b13d7666580e1438c13ce3eabcd093e0f4a467c533cd71d39bea2a74b25a53dd40dd6a0033d36218f563768bb6393a38c5b3f413f38b'
+
+# testing seinairo if given from a sender to encrypt a message before forwarding it to them
+# update with new key pair for testing place holder ofr testing
+given_public_key= """-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmpnpdIvbOvUEVww2xAka
+R41k8cBTr9LAtyPA6I5SRe90r0EYVDctl2hnoba1fGLQhun19r4pbTeM+16pfYt6
+qTmRAFtujbBuCKxrv1PKpxTC5MStTbkeMgcS1L3/y+V+DEBgOD50KVkcc2rbSPFc
+h4diuUGOz427azzdPZJX14g6HYwvk32kUqe1Z1ht/jFgUBoQlTZfaITxuagaA/ZQ
+h8kcDvJV5mvWJVytZGA8djvXWZpnJ4EUUYmMJQqCHwKt7xxIMb3WCuaObiLIKoFU
+YerHf7n3WLzs+VO111WVIugRdGzW+xTHtpOaYUvIktcPCQ9moY5ONbxwCQ8D0yUE
+C9WgwB2l2unaCDtbZvPpELIBwlmXgzL1uveD6o6mntI5pQA9J5TSi06J5T8hyy6o
+Re9Jkth679ds2LshQZWDPLhnkpkIs7ZdhiamYpoCYXe148bocUJjTPxose+7nAke
+W9VRt2AKAVfJmUCcqSlG9cm6t1XzzD6QLJBXjgqiMy2Ae+pEneuHOfw+1hRLZABR
+7DoikMW5RIzIz7i5gAlY5A5Mgr2MbO28B9/tP1GEeXdJhzhBwKziTnEGDF6KMsIE
+pkQJk1cgrhzhrUUUycauUUQ3aOhmUqD2JN7MILwHT9IKxbqOwRob7y1xsAe0tGwC
+P5Fj0QGr/b1NfG8bQctGBVECAwEAAQ==
+-----END PUBLIC KEY-----"""
+
+
+def generate_key_pair(public_key_path, private_key_path):
+    """Generates a new RSA key pair and saves them to files."""
+    key_pair = RSA.generate(4096)
+
+    with open(public_key_path, 'wb') as f:
+        f.write(key_pair.publickey().exportKey('PEM'))
+
+    with open(private_key_path, 'wb') as f:
+        f.write(key_pair.exportKey('PEM'))
+
+    # Print the public key (optional)
+    if should_print_public:  # Control printing with this variable
+        print("\nPublic key (PEM format):\n") 
+        print(key_pair.publickey().exportKey('PEM').decode()) 
+        print("\nPublic key (OpenSSH format):\n")
+        print(key_pair.publickey().exportKey('OpenSSH').decode())
+    
+def load_key(filename):
+    """Loads an RSA key from a PEM file."""
+    with open(filename, 'rb') as pem_in:
+        key_data = pem_in.read()
+    key = RSA.import_key(key_data)
+    return key
+
+def encrypt(public_key, message):
+    """Encrypts a message using the provided public key."""
+    encryptor = PKCS1_OAEP.new(public_key)
+    return encryptor.encrypt(message.encode())
+
+
+def decrypt(private_key, encrypted_data):
+    """Decrypts data using the provided private key."""
+    decryptor = PKCS1_OAEP.new(private_key)
+    return decryptor.decrypt(encrypted_data).decode()
+
+
+if __name__ == '__main__':
+    
+    # Set to False if you are encrypting and outgoing message with a give public key
+    use_given_key = True
+    
+    # Set to False to prevent automatic printing
+    should_print_public = True 
+    
+    # Set to False is if want new keys or dont have any yet 
+    make_new_keys = False
+    
+    
+    if use_given_key:
+        # Import the given public key
+        public_key = RSA.import_key(given_public_key)
+        # Encryption using the given public key
+        encrypted = encrypt(public_key, msg_to_encrypt)
+        
+        print ("\nGiven RSA public key (from sender):\n")
+        print(given_public_key)
+        print ("\nLocal message to encrypt for User:\n")
+        print(msg_to_encrypt)
+        # outputs to send
+        print("\nEncrypted Message to send:\n")
+        print(encrypted)
+        print("\nEncrypted Message to send (hex):\n")
+        print(binascii.hexlify(encrypted))
+        
+
+    else:
+        # You want to send a your public key to recive encrypted messages that you can use with your private key to decrypt 
+        # Load your own key pair
+        my_public_key = load_key(pubKeyPath)
+        my_private_key = load_key(privKeyPath)
+        
+        if make_new_keys:
+            generate_key_pair(pubKeyPath, privKeyPath)  # Uncomment if you need new keys 
+        
+        # Print your public key
+        if should_print_public:
+            print("\nYour public key (PEM format):\n") 
+            print(my_public_key.exportKey('PEM').decode()) 
+            print("\nYour public key (OpenSSH format):\n")
+            print(my_public_key.exportKey('OpenSSH').decode())
+        
+        # Examples
+        
+        # Encryption using your own public key
+        
+        #encrypted = encrypt(my_public_key, msg_to_encrypt)
+        
+        #decrypted = decrypt(my_private_key, encrypted)
+        
+        #print('Decrypted (from my string):', decrypted) 
+        print("Encrypted Message (from sender):\n")
+        print(msg_to_decrypt)
+        decrypted = decrypt(my_private_key, msg_to_decrypt)
+        print('\nDecrypted (from sender):\n')
+        print(decrypted)
+
+        # uncoment if hex is used
+        print("\nEncrypted Message (from sender hex):\n")
+        print(msg_to_decrypt_hex)
+        decrypted = decrypt(my_private_key, binascii.unhexlify(msg_to_decrypt_hex))
+        print('\nDecrypted (from hex sender):\n')
+        print(decrypted)
 
 
