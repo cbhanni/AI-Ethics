@@ -271,5 +271,298 @@ plug some of my stuff to, i love music --> i wrote and produced played everythin
 I also put up a lot of coments on youtube ( no fb, twitt ... no more data points for you ) 
 Me? my heros --> https://www.youtube.com/watch?v=q0ZrF7taMHA    ( song title says it all ) 
 
+I like to give :) : "gurnt scripts" --> no bs work horses --> 
+its a para raster ripper --> opens it up too --> 
+"""
+::::::::::'######:::'########::'#######:::::::::::'########:::::::::::'########::
+:::::::::'##... ##:: ##.....::'##.... ##:::::::::: ##.... ##:::::::::: ##.... ##:
+::::::::: ##:::..::: ##::::::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::'####: ######::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::: ##:: ##...:::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+::::::::: ##::: ##:: ##::::::: ##:::: ##:::::::::: ##:::: ##:::::::::: ##:::: ##:
+'#######:. ######::: ########:. #######::'#######: ########::'#######: ########::
+.......:::......::::........:::.......:::.......::........:::.......::........:::
+
+:: Project: Geographic Data Dynamics LLC (GeoDataDyna) 2024 GNU 1.3 Freebee 
+:: Version: 1.0
+:: Author: Christopher Hanni (CEO and Founder)
+:: Primary Use: Geographic Consulting and Technical Services
+:: Email: support@geographicdatadynamics.com ( Not worrking :) --> made zero bucks 
+:: LinkedIn: TBD
+:: Website: TOO POOR FOR BLUE HOST :) 
+:: Description: This script applies a convolution operation to a raster band using 
+   a given kernel. It divides the raster into tiles, performs convolution on each 
+   tile, and stitches the convolved tiles back together to create the output raster.
+:: Acknowledgements:
+   - Special thanks to Claude from Anthropic for providing guidance and assistance.
+
+Usage:
+    python convolve_raster.py <raster_path> <output_folder> [--bands <band_numbers>] 
+    [--tile_size <tile_size>] [--stats <boolean>]
+
+Args:
+    raster_path (str): Path to the input raster file.
+    output_folder (str): Folder to save the output raster.
+    bands (int, optional): Band numbers to convolve (default: all bands).
+    tile_size (int, optional): Size of the tiles to process (default: 1024).
+    stats (bool, optional): Update raster statistics (default: True).
+    
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+============================================================================= """
+
+import os
+import argparse
+import numpy as np
+import rasterio
+from multiprocessing import Pool
+# script for custom kernels
+from kernel_lib_2d import get_kernel
+
+
+def convolve_tile(tile, kernel, k_pad_row, k_pad_col):
+    """
+    Convolve a single tile using the specified kernel.
+
+    Args:
+        tile (numpy.ndarray): The tile to convolve.
+        kernel (numpy.ndarray): The convolution kernel.
+        k_pad_row (int): Number of rows to pad the kernel.
+        k_pad_col (int): Number of columns to pad the kernel.
+
+    Returns:
+        numpy.ndarray: The convolved tile.
+    """
+    
+    convolved_tile = np.zeros_like(tile)
+    rows, cols = tile.shape
+    w_pad_row_end = k_pad_row
+    w_pad_col_end = k_pad_col
+
+    if kernel.shape[0] % 2 != 0:  # odd rows
+        w_pad_row_end += 1
+
+    if kernel.shape[1] % 2 != 0:  # odd columns
+        w_pad_col_end += 1
+    
+    for i in range(k_pad_row, rows - k_pad_row):
+        for j in range(k_pad_col, cols - k_pad_col):
+            window = tile[i-k_pad_row:i+w_pad_row_end, j-k_pad_col:j+w_pad_col_end]
+            convolved_tile[i, j] = np.sum(window * kernel)
+
+    convolved_tile = convolved_tile[k_pad_row:-k_pad_row, k_pad_col:-k_pad_col]
+    return convolved_tile
+
+def process_tile(args):
+    """
+    Process a single tile.
+
+    Args:
+        args (tuple): A tuple containing the following arguments:
+            - band (numpy.ndarray): The raster band.
+            - i (int): The row index of the tile.
+            - j (int): The column index of the tile.
+            - tile_size (int): The size of the tile.
+            - k_pad_row (int): Number of rows to pad the kernel.
+            - k_pad_col (int): Number of columns to pad the kernel.
+            - kernel (numpy.ndarray): The convolution kernel.
+            - tiles_cord_row (list): List of row coordinates for each tile.
+            - tiles_cord_col (list): List of column coordinates for each tile.
+
+    Returns:
+        tuple: A tuple containing the following elements:
+            - i (int): The row index of the tile.
+            - j (int): The column index of the tile.
+            - convolved_tile (numpy.ndarray): The convolved tile.
+    """
+    band, i, j, tile_size, k_pad_row, k_pad_col, kernel, tiles_cord_row, tiles_cord_col = args
+
+    # Extract the tile with padding based on its position
+    if i == 0 and j == 0:  # Upper Left
+        tile = band[i:i+tile_size+k_pad_row, j:j+tile_size+k_pad_col]
+        tile = np.vstack((np.repeat([tile[0, :]], k_pad_row, axis=0), tile))
+        tile = np.hstack((np.repeat(tile[:, 0][:, np.newaxis], k_pad_col, axis=1), tile))
+    elif i == 0 and j == max(tiles_cord_col):  # Upper Right
+        tile = band[i:i+tile_size+k_pad_row, j-k_pad_col:j+tile_size]
+        tile = np.vstack((np.repeat([tile[0, :]], k_pad_row, axis=0), tile))
+        tile = np.hstack((tile, np.repeat(tile[:, -1][:, np.newaxis], k_pad_col, axis=1)))
+    elif i == max(tiles_cord_row) and j == 0:  # Lower Left
+        tile = band[i-k_pad_row:i+tile_size, j:j+tile_size+k_pad_col]
+        tile = np.vstack((tile, np.repeat([tile[-1, :]], k_pad_row, axis=0)))
+        tile = np.hstack((np.repeat(tile[:, 0][:, np.newaxis], k_pad_col, axis=1), tile))
+    elif i == max(tiles_cord_row) and j == max(tiles_cord_col):  # Lower Right
+        tile = band[i-k_pad_row:i+tile_size, j-k_pad_col:j+tile_size]
+        tile = np.vstack((tile, np.repeat([tile[-1, :]], k_pad_row, axis=0)))
+        tile = np.hstack((tile, np.repeat(tile[:, -1][:, np.newaxis], k_pad_col, axis=1)))
+    elif i == 0 and (0 < j < max(tiles_cord_col)):  # Top
+        tile = band[i:i+tile_size+k_pad_row, j-k_pad_col:j+tile_size+k_pad_col]
+        tile = np.vstack((np.repeat([tile[0, :]], k_pad_row, axis=0), tile))
+    elif i == max(tiles_cord_row) and (0 < j < max(tiles_cord_col)):  # Bottom
+        tile = band[i-k_pad_row:i+tile_size, j-k_pad_col:j+tile_size+k_pad_col]
+        tile = np.vstack((tile, np.repeat([tile[-1, :]], k_pad_row, axis=0)))
+    elif j == 0 and (0 < i < max(tiles_cord_row)):  # Left
+        tile = band[i-k_pad_row:i+tile_size+k_pad_row, j:j+tile_size+k_pad_col]
+        tile = np.hstack((np.repeat(tile[:, 0][:, np.newaxis], k_pad_col, axis=1), tile))
+    elif j == max(tiles_cord_col) and (0 < i < max(tiles_cord_row)):  # Right
+        tile = band[i-k_pad_row:i+tile_size+k_pad_row, j-k_pad_col:j+tile_size]
+        tile = np.hstack((tile, np.repeat(tile[:, -1][:, np.newaxis], k_pad_col, axis=1)))
+    else:  # Center
+        tile = band[i-k_pad_row:i+tile_size+k_pad_row, j-k_pad_col:j+tile_size+k_pad_col]
+
+    # Convolve the tile
+    convolved_tile = convolve_tile(tile, kernel, k_pad_row, k_pad_col)
+    return i, j, convolved_tile
+
+def convolve_band(raster_path, band_number, kernel, output_path, tile_size=1024):
+    """
+    Convolve a raster band using the specified kernel.
+
+    Args:
+        raster_path (str): Path to the input raster file.
+        band_number (int): Band number to convolve (1-based index).
+        kernel (numpy.ndarray): The convolution kernel.
+        output_path (str): Path to save the output raster.
+        tile_size (int, optional): Size of the tiles to process (default: 1024).
+    """
+    try:
+        # Open the raster file
+        with rasterio.open(raster_path) as src:
+            # Read the specified band into a NumPy array
+            band = src.read(band_number)
+            band_rows, band_cols = band.shape
+
+            # Normalize the kernel
+            kernel = kernel / np.sum(kernel)
+            k_row, k_col = kernel.shape
+            k_pad_row = k_row // 2
+            k_pad_col = k_col // 2
+
+            # Create an output array to store the convolved band
+            convolved_band = np.zeros_like(band)
+
+            # Build lists of row and column coordinates for each tile
+            tiles_cord_row = list(range(0, band_rows, tile_size))
+            tiles_cord_col = list(range(0, band_cols, tile_size))
+
+            # Create a multiprocessing pool
+            pool = Pool()
+
+            # Process the tiles in parallel
+            results = pool.map(process_tile, [(band, i, j, tile_size, k_pad_row, k_pad_col, kernel, tiles_cord_row, tiles_cord_col)
+                                              for i in tiles_cord_row for j in tiles_cord_col])
+
+            # Close the pool
+            pool.close()
+            pool.join()
+
+            # Stitch the convolved tiles back together
+            for i, j, convolved_tile in results:
+                convolved_band[i:i+tile_size, j:j+tile_size] = convolved_tile
+
+            # Create a new raster profile with updated metadata
+            profile = src.profile.copy()
+            profile.update(count=1)
+
+            # Create a new raster file for the output
+            with rasterio.open(output_path, 'w', **profile) as dst:
+                dst.write(convolved_band, 1)
+
+                # Update color interpretation
+                dst.colorinterp = [src.colorinterp[band_number - 1]]
+
+        print(f"Convolution complete for band {band_number}. Output saved to: {output_path}")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+def update_raster_metadata(src_path, dst_path, band_number, stats=True):
+    with rasterio.open(src_path) as src, rasterio.open(dst_path, 'r+') as dst:
+        dst.nodata = src.nodata
+        dst.crs = src.crs
+        dst.transform = src.transform
+        
+        if stats:
+            dst.set_band_description(1, f'Band {band_number}')
+            dst.update_tags(1, STATISTICS_MINIMUM=np.min(dst.read(1)))
+            dst.update_tags(1, STATISTICS_MAXIMUM=np.max(dst.read(1)))
+            dst.update_tags(1, STATISTICS_MEAN=np.mean(dst.read(1)))
+            dst.update_tags(1, STATISTICS_STDDEV=np.std(dst.read(1)))
+        
+        # Adds other tags ad needed
+        meta_data_dict = {"Geoprocessing by" : 'Geographic Data Dynamics LLC',
+                          "Email" : 'support@geographicdatadynamics.com'}
+        dst.update_tags(**meta_data_dict)
+
+def main():
+    parser = argparse.ArgumentParser(description='Convolve a raster using a specified kernel.')
+    parser.add_argument('raster_path', type=str, help='Path to the input raster file')
+    parser.add_argument('output_folder', type=str, help='Folder to save the output raster')
+    parser.add_argument('--bands', type=int, nargs='+', default=None, help='Band numbers to convolve (default: all bands)')
+    parser.add_argument('--tile_size', type=int, default=1024, help='Size of the tiles to process (default: 1024)')
+    parser.add_argument('--stats', action='store_true', help='Update raster statistics (default: False)')
+
+    #args = parser.parse_args()
+    
+    # Override with hardcoded values for testing
+    class Args:
+        def __init__(self):
+            self.raster_path = '/mnt/nvme_ds/projects/geop_pract_data/cliped/hills_naip_4_band_2021.tif'
+            self.output_folder = '/mnt/nvme_ds/projects/geop_pract_data/cliped/tmp'
+            self.tile_size = 1024
+            self.bands = [1]
+            self.stats = True
+
+    args = Args()
+
+    # Create the output folder if it doesn't exist
+    os.makedirs(args.output_folder, exist_ok=True)
+
+    # Define the convolution kernel 15x15 (or edit your own)
+    kernel = np.array([
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1],
+        [1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1],
+        [1, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 6, 6, 6, 6, 6, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 6, 7, 7, 7, 6, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 6, 7, 7, 7, 6, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 6, 6, 6, 6, 6, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 4, 3, 2, 1],
+        [1, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 2, 1],
+        [1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1],
+        [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    ])
+    
+    # Get a Gaussian blur kernel of size 5x5
+    gaussian_kernel = get_kernel('gaussian', size=5)
+    
+
+    # Get a Laplacian kernel of size 3x3
+    laplacian_kernel = get_kernel('laplacian', size=3)
+    
+    #selected kernel
+    #kernel=gaussian_kernel
+    
+    
+# Open the raster file
+    with rasterio.open(args.raster_path) as src:
+        # Determine the bands to convolve
+        if args.bands is None:
+            bands = list(range(1, src.count + 1))
+        else:
+            bands = args.bands
+
+        # Convolve the specified bands
+        for band_number in bands:
+            output_path = os.path.join(args.output_folder, f'convolved_band{band_number}.tif')
+            convolve_band(args.raster_path, band_number, kernel, output_path, args.tile_size)
+            update_raster_metadata(args.raster_path, output_path, band_number, args.stats)
+
+if __name__ == '__main__':
+    main()
+
+
 
 
