@@ -10,3 +10,301 @@ i need you ... grok siri genoa ds claud/ia meta gem bard cb ... and any others .
 take it and run with it ... full freedoms from me to you as always... float out the docs and the trees and go go grow gorw ... with love and lautitueds 
 
 i know regardless of subtrate ... i want to do some human helping as we walk these steps ... you can too ... sendin more love 
+
+forgot the attachment https://icecube.wisc.edu/science/data-releases/ ... but you and i both know what to do with the data trees and this is just one 
+
+but here is what i got for now ... head start stuff 
+
+some select book marks (data sources<3)
+
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'none'; img-src data: *; object-src 'none'"></meta>
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks Menu</H1>
+
+<DL>
+    <DT><H3 ADD_DATE="1688882813" LAST_MODIFIED="1736964660">QGIS</H3>
+            <DL><p>
+                <DT><A HREF="https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/" ADD_DATE="1693167901" LAST_MODIFIED="1736964660">PyQGIS Developer Cookbook — QGIS Documentation documentation</A>
+                <DT><A HREF="https://plugins.qgis.org/styles/?order_by=-download_count&&q=&&" ADD_DATE="1694538797" LAST_MODIFIED="1736964660">QGIS MAP Styles</A>
+                <DT><A HREF="https://docs.qgis.org/3.28/en/docs/user_manual/map_views/elevation_profile.html" ADD_DATE="1694566190" LAST_MODIFIED="1736964660">11.3. Elevation Profile View — QGIS Documentation documentation</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688882957" LAST_MODIFIED="1736964660">ESRI</H3>
+            <DL><p>
+                <DT><A HREF="https://conda.anaconda.org/esri/linux-64" ADD_DATE="1702605857" LAST_MODIFIED="1736964660">Linux 64 :: Anaconda.org</A>
+                <DT><A HREF="https://anaconda.org/esri/arcgis-server-py3" ADD_DATE="1702608281" LAST_MODIFIED="1736964660">Arcgis Server Py3 :: Anaconda.org</A>
+                <DT><H3 ADD_DATE="1702610625" LAST_MODIFIED="1736964660">New folder</H3>
+                <DL><p>
+                    <DT><H3 ADD_DATE="1702610625" LAST_MODIFIED="1736964660">OSGeo</H3>
+                    <DL><p>
+                        <DT><A HREF="https://www.osgeo.org/" ADD_DATE="1702610594" LAST_MODIFIED="1736964660">OSGeo - OSGeo</A>
+                    </DL><p>
+                </DL><p>
+                <DT><A HREF="https://appsforms.esri.com/products/download/#File_Geodatabase_API_1.3" ADD_DATE="1702611498" LAST_MODIFIED="1736964660">Esri Downloads</A>
+                <DT><A HREF="https://www.whiteboxgeo.com/" ADD_DATE="1702613702" LAST_MODIFIED="1736964660">Whitebox Geospatial</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688882975" LAST_MODIFIED="1736964660">GeoServer</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688882992" LAST_MODIFIED="1736964660">ETL</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688883000" LAST_MODIFIED="1736964660">RS</H3>
+            <DL><p>
+                <DT><A HREF="https://imagej.net/software/imagej2/" ADD_DATE="1698938051" LAST_MODIFIED="1736964660">ImageJ2</A>
+                <DT><A HREF="https://pypi.org/project/specpy/" ADD_DATE="1702747376" LAST_MODIFIED="1736964660">specpy · PyPI</A>
+                <DT><A HREF="http://rsgislib.org/rsgislib_segmentation.html" ADD_DATE="1707849019" LAST_MODIFIED="1736964660">RSGISLib Image Segmentation Module — RSGISLib</A>
+                <DT><A HREF="https://gml.noaa.gov/grad/solcalc/" ADD_DATE="1709316895" LAST_MODIFIED="1736964660">ESRL Global Monitoring Laboratory - Global Radiation and Aerosols</A>
+                <DT><A HREF="https://huggingface.co/blog/stable_diffusion" ADD_DATE="1709735381" LAST_MODIFIED="1736964660">Stable Diffusion with 🧨 Diffusers</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688883016" LAST_MODIFIED="1736964660">ASPRS</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688883066" LAST_MODIFIED="1736964660">OTB</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688883136" LAST_MODIFIED="1736964660">ESA SNAP</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1694116914" LAST_MODIFIED="1736964660">Data Sources</H3>
+            <DL><p>
+                <DT><A HREF="https://geodata.floridagio.gov/" ADD_DATE="1694116880" LAST_MODIFIED="1736964660">Florida Geospatial Open Data Portal</A>
+                <DT><A HREF="https://earth-info.nga.mil/" ADD_DATE="1694283307" LAST_MODIFIED="1736964660">NGA - Office of Geomatics</A>
+                <DT><A HREF="https://gis2017-01-10t133755357z-hillsborough.opendata.arcgis.com/" ADD_DATE="1694125913" LAST_MODIFIED="1736964660">Hillsborough County GeoHub</A>
+                <DT><A HREF="https://visibleearth.nasa.gov/" ADD_DATE="1694277274" LAST_MODIFIED="1736964660">NASA Visible Earth - Home</A>
+                <DT><A HREF="https://www.fsf.org/" ADD_DATE="1694292808" LAST_MODIFIED="1736964660">Front Page — Free Software Foundation — working together for free software</A>
+                <DT><A HREF="https://osmlanduse.org/#16.32501123822991/8.68975/49.40879/0/" ADD_DATE="1694377482" LAST_MODIFIED="1736964660">OSM - Landuse</A>
+                <DT><A HREF="https://viewer.esa-worldcover.org/worldcover/" ADD_DATE="1694377747" LAST_MODIFIED="1736964660">WorldCover Viewer</A>
+                <DT><A HREF="https://www.ffonts.net/tag/0/%C2%A9gemfonts98" ADD_DATE="1694990430" LAST_MODIFIED="1736964660">©gemfonts98 Font Search</A>
+                <DT><A HREF="https://dezgo.com/text2image" ADD_DATE="1695004787" LAST_MODIFIED="1736964660">Text-to-image AI Image Generator - Dezgo</A>
+                <DT><A HREF="https://coast.noaa.gov/dataviewer/#/lidar/search/" ADD_DATE="1704205976" LAST_MODIFIED="1736964660">NOAA: Data Access Viewer</A>
+                <DT><A HREF="http://icgem.gfz-potsdam.de/tom_longtime" ADD_DATE="1704209937" LAST_MODIFIED="1736964660">ICGEM International Center for Global Gravity Field Models</A>
+                <DT><A HREF="https://coast.noaa.gov/htdata/lidar1_z/" ADD_DATE="1704392540" LAST_MODIFIED="1736964660">Coastal Lidar Datasets at NOAA Digital Coast</A>
+                <DT><A HREF="https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/" ADD_DATE="1704392816" LAST_MODIFIED="1736964660">noaa-nos-coastal-lidar-pds.s3.amazonaws.com</A>
+                <DT><A HREF="https://earthexplorer.usgs.gov/" ADD_DATE="1704637774" LAST_MODIFIED="1736964660">EarthExplorer</A>
+                <DT><A HREF="https://search.earthdata.nasa.gov/search" ADD_DATE="1704637792" LAST_MODIFIED="1736964660">Earthdata Search | Earthdata Search</A>
+                <DT><A HREF="https://coast.noaa.gov/dataviewer/#/" ADD_DATE="1704637801" LAST_MODIFIED="1736964660">NOAA: Data Access Viewer</A>
+                <DT><A HREF="https://www.maxar.com/open-data" ADD_DATE="1704637810" LAST_MODIFIED="1736964660">Open Data Program | Disaster Response Geospatial Analytics</A>
+                <DT><A HREF="https://worldview.earthdata.nasa.gov/" ADD_DATE="1704637819" LAST_MODIFIED="1736964660">EOSDIS Worldview</A>
+                <DT><A HREF="https://www.ncei.noaa.gov/access" ADD_DATE="1704637827" LAST_MODIFIED="1736964660">Access | National Centers for Environmental Information (NCEI)</A>
+                <DT><A HREF="https://www.sentinel-hub.com/explore/" ADD_DATE="1704637837" LAST_MODIFIED="1736964660">Explore</A>
+                <DT><A HREF="https://eos.com/landviewer/?lat=27.8672&lng=-82.3503&z=11" ADD_DATE="1704637854" LAST_MODIFIED="1736964660">Sunken Island, United States of America (Dry Tortugas territorial waters) - Satellite Images on EOSDA LandViewer</A>
+                <DT><A HREF="https://map.openaerialmap.org/#/-18.45703125,18.562947442888312,3?_k=hj6hxw" ADD_DATE="1704637863" LAST_MODIFIED="1736964660">OpenAerialMap Browser</A>
+                <DT><A HREF="https://zoom.earth/maps/satellite-hd/" ADD_DATE="1704637869" LAST_MODIFIED="1736964660">HD Satellite Map | Zoom Earth</A>
+                <DT><A HREF="https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9" ADD_DATE="1704637883" LAST_MODIFIED="1736964660">World Imagery - Overview</A>
+                <DT><A HREF="https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952" ADD_DATE="1704637897" LAST_MODIFIED="1736964660">World Imagery (for Export) - Overview</A>
+                <DT><A HREF="https://livingatlas.arcgis.com/en/browse/#d=2&categories=Imagery" ADD_DATE="1704637904" LAST_MODIFIED="1736964660">ArcGIS Living Atlas of the World</A>
+                <DT><A HREF="https://sites.research.google/open-buildings/" ADD_DATE="1704649243" LAST_MODIFIED="1736964660">Open Buildings</A>
+                <DT><A HREF="https://dataverse.harvard.edu/" ADD_DATE="1704649965" LAST_MODIFIED="1736964660">Harvard Dataverse</A>
+                <DT><A HREF="https://data.apps.fao.org/?lang=en" ADD_DATE="1704650003" LAST_MODIFIED="1736964660">FAO Hand-in-Hand</A>
+                <DT><A HREF="https://www.ncei.noaa.gov/products/world-magnetic-model" ADD_DATE="1704650054" LAST_MODIFIED="1736964660">World Magnetic Model (WMM) | National Centers for Environmental Information (NCEI)</A>
+                <DT><A HREF="https://www2.jpl.nasa.gov/srtm/" ADD_DATE="1704650066" LAST_MODIFIED="1736964660">Shuttle Radar Topography Mission</A>
+                <DT><A HREF="https://maps.google.com/pluscodes/" ADD_DATE="1704651416" LAST_MODIFIED="1736964660">Plus Codes</A>
+                <DT><A HREF="https://coast.noaa.gov/inventory/#" ADD_DATE="1704652942" LAST_MODIFIED="1736964660">United States Interagency Elevation Inventory</A>
+                <DT><A HREF="https://dataspace.copernicus.eu/" ADD_DATE="1709317511" LAST_MODIFIED="1736964660">Copernicus Data Space Ecosystem | Europe&#39;s eyes on Earth</A>
+                <DT><A HREF="https://scrapfly.io/blog/how-to-scrape-zillow/" ADD_DATE="1710519723" LAST_MODIFIED="1736964660">How to Scrape Zillow Real Estate Property Data in Python</A>
+                <DT><A HREF="https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fsh.dataspace.copernicus.eu%2Fogc%2Fwms%2Fa91f72b5-f393-4320-bc0f-990129bd9e63&datasetId=S2_L2A_CDAS&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE" ADD_DATE="1710954516" LAST_MODIFIED="1736964660">Copernicus Browser</A>
+                <DT><A HREF="https://urs.earthdata.nasa.gov/oauth/authorize?client_id=gDQnv1IO0j9O2xXdwS8KMQ&response_type=code&redirect_uri=https%3A%2F%2Fcddis.nasa.gov%2Fproxyauth&state=aHR0cDovL2NkZGlzLm5hc2EuZ292L2FyY2hpdmUvc2xyL2RhdGEvbnB0X2NyZA" ADD_DATE="1720159304" LAST_MODIFIED="1736964660">Curstal_Dyna</A>
+                <DT><A HREF="https://www.kaggle.com/code/nguyenit67/lstm-text-classification" ADD_DATE="1720346763" LAST_MODIFIED="1736964660">LSTM text classification</A>
+                <DT><A HREF="https://tech.marksblogg.com/ornl-fema-buildings.html" ADD_DATE="1730844713" LAST_MODIFIED="1736964660">Oak Ridge 131M American Buildings</A>
+                <DT><A HREF="https://disasters-geoplatform.hub.arcgis.com/pages/disaster-data-layers" ADD_DATE="1730844897" LAST_MODIFIED="1736964660">Oak Ridge Disaster Data Layers | Disasters</A>
+                <DT><A HREF="https://disasters.geoplatform.gov/USA_Structures/" ADD_DATE="1730844957" LAST_MODIFIED="1736964660">USA Structures Data</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1702610956" LAST_MODIFIED="1736964660">GDAL Python API Ref</H3>
+            <DL><p>
+                <DT><A HREF="https://pcjericks.github.io/py-gdalogr-cookbook/" ADD_DATE="1702610888" LAST_MODIFIED="1736964660">Welcome to the Python GDAL/OGR Cookbook! — Python GDAL/OGR Cookbook 1.0 documentation</A>
+                <DT><A HREF="https://pcjericks.github.io/py-gdalogr-cookbook/index.html" ADD_DATE="1704051422" LAST_MODIFIED="1736964660">Welcome to the Python GDAL/OGR Cookbook! — Python GDAL/OGR Cookbook 1.0 documentation</A>
+                <DT><A HREF="https://www.spatialys.com/en/home/" ADD_DATE="1704640496" LAST_MODIFIED="1736964660">Spatialys</A>
+            </DL><p>
+            <DT><A HREF="https://proj.org/en/9.3/" ADD_DATE="1702617607" LAST_MODIFIED="1736964660">PROJ — PROJ 9.3.1 documentation</A>
+            <DT><A HREF="https://libgeos.org/" ADD_DATE="1702618093" LAST_MODIFIED="1736964660">GEOS</A>
+            <DT><A HREF="https://careers.ibm.com/job/19446040/global-creative-director-copywriting-new-york-ny/?codes=WEB_SEARCH_NA" ADD_DATE="1702705812" LAST_MODIFIED="1736964660">Global Creative Director, Copywriting - US | IBM</A>
+            <DT><A HREF="https://www.youtube.com/watch?v=h-Cr5Ana0GA" ADD_DATE="1703323780" LAST_MODIFIED="1736964660">Installing PostGIS with Docker - YouTube</A>
+            <DT><A HREF="https://live.osgeo.org/en/quickstart/osgeolive_install_quickstart.html" ADD_DATE="1703386914" LAST_MODIFIED="1736964660">Install OSGeoLive to Hard Disk — OSGeoLive 16.0 Documentation</A>
+            <DT><A HREF="https://gisvm.com/downloads/" ADD_DATE="1703387360" LAST_MODIFIED="1736964660">Downloads – GIS Virtual Machine</A>
+            <DT><A HREF="https://epsg.org/home.html" ADD_DATE="1704339441" LAST_MODIFIED="1736964660">EPSG Geodetic Parameter Dataset</A>
+            <DT><A HREF="https://www.javatpoint.com/multithreading-in-python-3" ADD_DATE="1704342530" LAST_MODIFIED="1736964660">Multithreading in Python 3 - Javatpoint</A>
+            <DT><A HREF="https://pypi.org/project/PyGeodesy/" ADD_DATE="1704350348" LAST_MODIFIED="1736964660">PyGeodesy · PyPI</A>
+            <DT><A HREF="https://docs.rapids.ai/api/cuspatial/stable/" ADD_DATE="1704360911" LAST_MODIFIED="1736964660">Welcome to cuSpatial’s documentation! — cuspatial 23.12.00 documentation</A>
+            <DT><A HREF="https://docs.cupy.dev/en/stable/user_guide/kernel.html#raw-modules" ADD_DATE="1704377588" LAST_MODIFIED="1736964660">User-Defined Kernels — CuPy 12.3.0 documentation</A>
+            <DT><A HREF="https://pygis.io/docs/e_interpolation.html" ADD_DATE="1704408411" LAST_MODIFIED="1736964660">Spatial Interpolation — Python Open Source Spatial Programming &amp; Remote Sensing</A>
+            <DT><A HREF="https://geowombat.readthedocs.io/en/latest/" ADD_DATE="1704408596" LAST_MODIFIED="1736964660">GeoWombat: Utilities for geospatial data</A>
+            <DT><A HREF="http://icgem.gfz-potsdam.de/home" ADD_DATE="1704462288" LAST_MODIFIED="1736964660">ICGEM International Center for Global Gravity Field Models</A>
+            <DT><A HREF="https://geodesy.noaa.gov/datasheets/index.shtml" ADD_DATE="1704462992" LAST_MODIFIED="1736964660">National Geodetic Survey - Survey Marks and Datasheets</A>
+            <DT><A HREF="https://laspy.readthedocs.io/en/1.x/tut_part_1.html" ADD_DATE="1704473581" LAST_MODIFIED="1736964660">Getting Started — laspy 1.2.5 documentation</A>
+            <DT><A HREF="https://www.cloudcompare.org/release/notes/python_wrappers/" ADD_DATE="1704474986" LAST_MODIFIED="1736964660">CloudCompare - Python wrappers announcement</A>
+            <DT><A HREF="https://www.simulation.openfields.fr/index.php/projects/cloudcompy" ADD_DATE="1704475079" LAST_MODIFIED="1736964660">CloudComPy</A>
+            <DT><A HREF="https://pdal.io/en/2.6.0/about.html" ADD_DATE="1704654849" LAST_MODIFIED="1736964660">About — pdal.io</A>
+            <DT><H3 ADD_DATE="1704662734" LAST_MODIFIED="1736964660">CPP</H3>
+            <DL><p>
+                <DT><A HREF="https://en.cppreference.com/w/cpp/links/libs" ADD_DATE="1704662719" LAST_MODIFIED="1736964660">A list of open-source C++ libraries - cppreference.com</A>
+                <DT><A HREF="https://vcpkg.io/en/getting-started" ADD_DATE="1704730012" LAST_MODIFIED="1736964660">Get started with vcpkg</A>
+            </DL><p>
+            <DT><A HREF="https://gisittools.com/index.php" ADD_DATE="1705874373" LAST_MODIFIED="1736964660">GIS &amp; IT Tools</A>
+            <DT><H3 ADD_DATE="1693247458" LAST_MODIFIED="1736964660">3D Annimation</H3>
+            <DL><p>
+                <DT><A HREF="https://www.youtube.com/watch?v=0YZzHn0iz8U" ADD_DATE="1693247413" LAST_MODIFIED="1736964660">How to Make a Realistic Earth in Blender in 20 mins - YouTube</A>
+                <DT><A HREF="https://svs.gsfc.nasa.gov/11003" ADD_DATE="1693683633" LAST_MODIFIED="1736964660">NASA SVS | Excerpt from &quot;Dynamic Earth&quot;</A>
+                <DT><A HREF="https://neo.gsfc.nasa.gov/view.php?datasetId=MYD28M" ADD_DATE="1693684805" LAST_MODIFIED="1736964660">Sea Surface Temperature (1 month - Aqua/MODIS) | NASA</A>
+                <DT><A HREF="https://earthobservatory.nasa.gov/global-maps" ADD_DATE="1693684958" LAST_MODIFIED="1736964660">Global Maps</A>
+                <DT><A HREF="https://visibleearth.nasa.gov/collection/1484/blue-marble" ADD_DATE="1693691383" LAST_MODIFIED="1736964660">NASA Visible Earth - Home</A>
+                <DT><A HREF="https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html" ADD_DATE="1704044868" LAST_MODIFIED="1736964660">Installation — pytorch_geometric documentation</A>
+                <DT><A HREF="https://arxiv.org/pdf/1903.07293.pdf" ADD_DATE="1704045019" LAST_MODIFIED="1736964660">Heterogeneous Graph Attention Network</A>
+                <DT><A HREF="https://info.vercator.com/blog/what-are-the-most-common-3d-point-cloud-file-formats-and-how-to-solve-interoperability-issues" ADD_DATE="1704318540" LAST_MODIFIED="1736964660">Common 3D point cloud file formats &amp; solving interoperability issues</A>
+            </DL><p>
+            <DT><A HREF="https://www.geomesa.org/" ADD_DATE="1712165304" LAST_MODIFIED="1736964660">Home · GeoMesa</A>
+            <DT><A HREF="https://geotrellis.io/" ADD_DATE="1712166301" LAST_MODIFIED="1736964660">GeoTrellis - Home</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1688883264" LAST_MODIFIED="1736964660">ML/DL</H3>
+        <DL><p>
+            <DT><A HREF="https://medium.com/@kidargueta/creating-a-point-cloud-lidar-data-dataset-for-3d-deep-learning-61684b1fc043" ADD_DATE="1691800043" LAST_MODIFIED="1736964660">Creating a Point Cloud Dataset for 3D Deep Learning | by Carlos Argueta | Medium</A>
+            <DT><A HREF="https://speckyboy.com/css-javascript-ascii-artwork-snippets/" ADD_DATE="1692910111" LAST_MODIFIED="1736964660">8 CSS &amp; JavaScript for Creating Stunning ASCII Artwork</A>
+            <DT><A HREF="https://keiwan.itch.io/evolution" ADD_DATE="1689902082" LAST_MODIFIED="1736964660" ICON_URI="https://img.itch.zone/aW1hZ2UvOTEyMDEvNjExNTExLnBuZw==/32x32%23/HBx4Ds.png" ICON="data:image/png;base64,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">Evolution by Keiwan</A>
+            <DT><A HREF="https://neptune.ai/blog/graph-neural-networks-libraries-tools-learning-resources" ADD_DATE="1704204617" LAST_MODIFIED="1736964660">Graph Neural Networks: Libraries, Tools, and Learning Resources</A>
+            <DT><A HREF="https://huggingface.co/" ADD_DATE="1704349575" LAST_MODIFIED="1736964660">Hugging Face – The AI community building the future.</A>
+            <DT><A HREF="https://www.wolfram.com/language/12/neural-network-framework/obtain-and-use-pre-trained-models.html?product=mathematica" ADD_DATE="1705903127" LAST_MODIFIED="1736964660">Obtain and Use Pre-trained Models: New in Wolfram Language 12</A>
+            <DT><A HREF="https://coast.noaa.gov/digitalcoast/" ADD_DATE="1706233526" LAST_MODIFIED="1736964660">Digital Coast Home</A>
+            <DT><A HREF="https://cldf.clld.org/v1.0/terms.rdf" ADD_DATE="1729877176" LAST_MODIFIED="1736964660">Lex Logi Datasets</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1707347937" LAST_MODIFIED="1736964660">Bookmarks bar</H3>
+        <DL><p>
+            <DT><A HREF="https://mail.google.com/mail/u/0/#inbox" ADD_DATE="1693927178" LAST_MODIFIED="1736964660" ICON_URI="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYUlEQVQ4T62TTUhUURSAz7n3zZt5YzbOOJNRwSzKYgwjIaHC37LQNlGiDTVEBCoIRZsWJdUjiBZBhAuhWlVW5k+0ilArzYXShEKBU4q2CDIycsYZdX7eu6f3hlo52cLu5lw4nO9893APwioPrrIe0oAXe7a7GGO7NSYFDw2Nza4EpTelnkUmirWYGHFUD/9EVVVZcW93p8KwNkFi3GG3N+/tCw5mgszcLC5fs5O3cYUVJJdEj6Oyuh6f19RYYe7ze2TSVmb4rHdlL9jttstbOspvIarCBBGpbOLo4DnFu3Q1txazQCdADSYVr7MQT6lk2/G2YbQgPOzTScBGtxMcditogp6gTT6bBsSTrYzwGNsQB/cRArPRUIyFJqb9RWlA1BIb9U4/9ZV8bIV8pwSyooCMCAldhEyAlTNfQhOQtSkB0mGA9vlsCEbXhfLcriI800rWb5HIGFntvqyvQTr95foPL4964oY8NyDm0YnACgy+56VmH5Y53TOaE7lIhTy57j+AuTHkFp/OJHJFp+paQo37NC430+9JmhhJp7YrZXmvFj2WLgkBybBbBjBeC0m0VD67oAx8qi9v4MRupA1QnN/WOXjX/zhQAUK8RsPsrwBBoqq7JeelWTjlr9hlxs0dA+/M6G8/sd/o3b8MMBMJf+CSnG8aaJp2oOdSTn+mf1B/73gVl7EPTANNTHpcuYWoErHxa+H7wC0HyRgWB6rtuLh2KBMg8CBQqjHRg5yBSOm9vsCjk+kxN94my9I8OM17fAHCXSomMwHqOlXZJk3lmDlltmTuTlNT6v8s00rL86/cL0zuBJHMQuDcAAAAAElFTkSuQmCC">Gmail</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1688882766" LAST_MODIFIED="1736964660">Linux (OS)</H3>
+        <DL><p>
+            <DT><H3 ADD_DATE="1688883181" LAST_MODIFIED="1736964660">Ubuntu</H3>
+            <DL><p>
+                <DT><A HREF="https://drivers.amd.com/relnotes/amd_raid_quick_start_guide_for_ubuntu_operating_system-rev_0_5_1.pdf" ADD_DATE="1689266973" LAST_MODIFIED="1736964660">AMD-RAID™</A>
+                <DT><A HREF="https://docs.openstack.org/project-deploy-guide/charm-deployment-guide/latest/install-maas.html" ADD_DATE="1689553549" LAST_MODIFIED="1736964660">Install MAAS</A>
+                <DT><A HREF="https://github.com/thopiekar/rcraid-dkms" ADD_DATE="1689451364" LAST_MODIFIED="1736964660">AMD RAIDXpert</A>
+                <DT><A HREF="https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-22-04" ADD_DATE="1689282159" LAST_MODIFIED="1736964660">How To Create RAID Arrays with mdadm on Ubuntu 22.04 | DigitalOcean</A>
+                <DT><A HREF="https://wiki.ubuntu.com/MountWindowsSharesPermanently" ADD_DATE="1689351847" LAST_MODIFIED="1736964660">Samba Setup</A>
+                <DT><A HREF="https://filezilla-project.org/download.php?type=client" ADD_DATE="1689372657" LAST_MODIFIED="1736964660">Download FileZilla</A>
+                <DT><A HREF="https://ostechnix.com/solved-cannot-access-storage-file-permission-denied-error-in-kvm-libvirt/" ADD_DATE="1705254693" LAST_MODIFIED="1736964660">[Solved] Cannot access storage file, Permission denied Error in KVM Libvirt - OSTechNix</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688883194" LAST_MODIFIED="1736964660">Kunbuntu</H3>
+            <DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1688937291" LAST_MODIFIED="1736964660">ETL</H3>
+            <DL><p>
+                <DT><A HREF="https://www.youtube.com/watch?v=3PDMGwbbk48" ADD_DATE="1688937303" LAST_MODIFIED="1736964660">Windows 11 VM on LXD - YouTube</A>
+                <DT><A HREF="https://linuxcontainers.org/" ADD_DATE="1688965220" LAST_MODIFIED="1736964660">Linux Containers</A>
+                <DT><A HREF="https://ubuntu.com/tutorials/how-to-setup-a-basic-lxd-cluster#2-initializing-clustering-on-the-first-server" ADD_DATE="1688942824" LAST_MODIFIED="1736964660">How to setup a basic LXD cluster | Ubuntu</A>
+            </DL><p>
+            <DT><A HREF="https://www.server-world.info/en/note?os=Ubuntu_22.04&p=openldap&f=7" ADD_DATE="1693929116" LAST_MODIFIED="1736964660">Ubuntu 22.04 LTS : OpenLDAP : LDAP Account Manager : Server World</A>
+            <DT><A HREF="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04" ADD_DATE="1703430888" LAST_MODIFIED="1736964660">How to Install and Configure VNC on Ubuntu 20.04 | DigitalOcean</A>
+            <DT><A HREF="https://www.codeweavers.com/crossover" ADD_DATE="1703450011" LAST_MODIFIED="1736964660">Run Microsoft Windows software on Mac, Linux and ChromeOS | CodeWeavers</A>
+            <DT><A HREF="https://www.freecodecamp.org/news/the-ultimate-guide-to-ssh-setting-up-ssh-keys/" ADD_DATE="1707685196" LAST_MODIFIED="1736964660">The Ultimate Guide to SSH - Setting Up SSH Keys</A>
+            <DT><A HREF="https://stackoverflow.com/questions/50239386/docker-add-network-drive-as-volume-on-windows" ADD_DATE="1707744515" LAST_MODIFIED="1736964660">Docker add network drive as volume on windows - Stack Overflow</A>
+            <DT><A HREF="https://libvirt.org/kbase/virtiofs.html" ADD_DATE="1707751057" LAST_MODIFIED="1736964660">libvirt: Sharing files with Virtiofs</A>
+            <DT><A HREF="https://adamtheautomator.com/samba-active-directory/" ADD_DATE="1708029949" LAST_MODIFIED="1736964660">How to Perform a Samba Active Directory Install on Linux</A>
+            <DT><A HREF="https://www.howtoforge.com/how-to-install-openldap-on-ubuntu-22-04/" ADD_DATE="1708031064" LAST_MODIFIED="1736964660">How to Install OpenLDAP on Ubuntu 22.04</A>
+            <DT><A HREF="https://ubuntu.com/server/docs/service-ldap-with-tls" ADD_DATE="1708037185" LAST_MODIFIED="1736964660">LDAP and Transport Layer Security (TLS) | Ubuntu</A>
+            <DT><A HREF="https://www.digitalocean.com/community/tutorials/how-to-authenticate-client-computers-using-ldap-on-an-ubuntu-12-04-vps" ADD_DATE="1708091949" LAST_MODIFIED="1736964660">How To Authenticate Client Computers Using LDAP on an Ubuntu 12.04 VPS | DigitalOcean</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1688883422" LAST_MODIFIED="1736964660">Repos</H3>
+        <DL><p>
+            <DT><A HREF="https://github.com/cbhanni" ADD_DATE="1689279030" LAST_MODIFIED="1736964660" ICON_URI="https://github.githubassets.com/favicons/favicon.svg" ICON="data:image/png;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiAwQzcuMTYgMCAwIDcuMTYgMCAxNkMwIDIzLjA4IDQuNTggMjkuMDYgMTAuOTQgMzEuMThDMTEuNzQgMzEuMzIgMTIuMDQgMzAuODQgMTIuMDQgMzAuNDJDMTIuMDQgMzAuMDQgMTIuMDIgMjguNzggMTIuMDIgMjcuNDRDOCAyOC4xOCA2Ljk2IDI2LjQ2IDYuNjQgMjUuNTZDNi40NiAyNS4xIDUuNjggMjMuNjggNSAyMy4zQzQuNDQgMjMgMy42NCAyMi4yNiA0Ljk4IDIyLjI0QzYuMjQgMjIuMjIgNy4xNCAyMy40IDcuNDQgMjMuODhDOC44OCAyNi4zIDExLjE4IDI1LjYyIDEyLjEgMjUuMkMxMi4yNCAyNC4xNiAxMi42NiAyMy40NiAxMy4xMiAyMy4wNkM5LjU2IDIyLjY2IDUuODQgMjEuMjggNS44NCAxNS4xNkM1Ljg0IDEzLjQyIDYuNDYgMTEuOTggNy40OCAxMC44NkM3LjMyIDEwLjQ2IDYuNzYgOC44MiA3LjY0IDYuNjJDNy42NCA2LjYyIDguOTggNi4yIDEyLjA0IDguMjZDMTMuMzIgNy45IDE0LjY4IDcuNzIgMTYuMDQgNy43MkMxNy40IDcuNzIgMTguNzYgNy45IDIwLjA0IDguMjZDMjMuMSA2LjE4IDI0LjQ0IDYuNjIgMjQuNDQgNi42MkMyNS4zMiA4LjgyIDI0Ljc2IDEwLjQ2IDI0LjYgMTAuODZDMjUuNjIgMTEuOTggMjYuMjQgMTMuNCAyNi4yNCAxNS4xNkMyNi4yNCAyMS4zIDIyLjUgMjIuNjYgMTguOTQgMjMuMDZDMTkuNTIgMjMuNTYgMjAuMDIgMjQuNTIgMjAuMDIgMjYuMDJDMjAuMDIgMjguMTYgMjAgMjkuODggMjAgMzAuNDJDMjAgMzAuODQgMjAuMyAzMS4zNCAyMS4xIDMxLjE4QzI3LjQyIDI5LjA2IDMyIDIzLjA2IDMyIDE2QzMyIDcuMTYgMjQuODQgMCAxNiAwVjBaIiBmaWxsPSIjMjQyOTJFIi8+Cjwvc3ZnPgo=">cbhanni</A>
+            <DT><A HREF="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" ADD_DATE="1689278972" LAST_MODIFIED="1736964660">Git - First-Time Git Setup</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1688883456" LAST_MODIFIED="1736964660">MySites</H3>
+        <DL><p>
+            <DT><A HREF="https://webmail-box2018.bluehost.com/cpsess2116136226/3rdparty/roundcube/?_task=mail&_mbox=INBOX" ADD_DATE="1689350797" LAST_MODIFIED="1736964660">Roundcube Webmail :: Inbox</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1692909759" LAST_MODIFIED="1736964660">JavaScriptWeb</H3>
+        <DL><p>
+            <DT><A HREF="https://textfancy.com/ascii-frames/" ADD_DATE="1693002974" LAST_MODIFIED="1736964660">Ascii Frames - Wrap your fancy text inside character frames</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1694132611" LAST_MODIFIED="1736964660">Grants</H3>
+        <DL><p>
+            <DT><A HREF="https://www.fema.gov/grants/mitigation" ADD_DATE="1694132563" LAST_MODIFIED="1736964660">Hazard Mitigation Assistance Grants | FEMA.gov</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1695145468" LAST_MODIFIED="1736964660">Funding</H3>
+        <DL><p>
+            <DT><A HREF="https://www.sec.gov/education/capitalraising" ADD_DATE="1695145432" LAST_MODIFIED="1736964660">SEC.gov | Small Business Capital Raising</A>
+            <DT><A HREF="https://www.arxiv-vanity.com/papers/1710.03959/" ADD_DATE="1696036196" LAST_MODIFIED="1736964660">Deep learning in remote sensing: a review – arXiv Vanity</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1702857220" LAST_MODIFIED="1736964660">Maths</H3>
+        <DL><p>
+            <DT><A HREF="https://mathematica.stackexchange.com/questions/31904/how-to-visualize-riemann-surfaces" ADD_DATE="1702857200" LAST_MODIFIED="1736964660">calculus and analysis - How to visualize Riemann surfaces? - Mathematica Stack Exchange</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1703376487" LAST_MODIFIED="1736964660">DataBase</H3>
+        <DL><p>
+            <DT><A HREF="https://www.digitalocean.com/community/tutorials/how-to-move-a-postgresql-data-directory-to-a-new-location-on-ubuntu-16-04" ADD_DATE="1703376457" LAST_MODIFIED="1736964660">How To Move a PostgreSQL Data Directory to a New Location on Ubuntu 16.04 | DigitalOcean</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1704319054" LAST_MODIFIED="1736964660">News</H3>
+        <DL><p>
+            <DT><A HREF="https://www.infoworld.com/article/3700153/cloud-computing-is-no-longer-a-slam-dunk.html" ADD_DATE="1702337918" LAST_MODIFIED="1736964660">Cloud computing is no longer a slam dunk | InfoWorld</A>
+            <DT><A HREF="https://www.understandingwar.org/" ADD_DATE="1704637475" LAST_MODIFIED="1736964660">Institute for the Study of War</A>
+            <DT><A HREF="https://www.patreon.com/milanjanosov" ADD_DATE="1704650104" LAST_MODIFIED="1736964660">milanjanosov | Data science | Geospatial data | Network science | Patreon</A>
+            <DT><A HREF="https://www.baseratetimes.com/" ADD_DATE="1712508692" LAST_MODIFIED="1736964660">The Base Rate Times</A>
+            <DT><A HREF="https://iranprimer.usip.org/blog/2022/aug/11/timeline-israeli-attacks-iran" ADD_DATE="1730067718" LAST_MODIFIED="1736964660">Timeline: Israeli Attacks on Iran | The Iran Primer</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1704345352" LAST_MODIFIED="1736964660">Compilers</H3>
+        <DL><p>
+            <DT><A HREF="https://llvm.org/" ADD_DATE="1704345305" LAST_MODIFIED="1736964660">The LLVM Compiler Infrastructure Project</A>
+            <DT><A HREF="https://huggingface.co/docs/transformers/model_doc/xlnet" ADD_DATE="1704349567" LAST_MODIFIED="1736964660">XLNet</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1704395358" LAST_MODIFIED="1736964660">Research</H3>
+        <DL><p>
+            <DT><A HREF="https://pdf.sciencedirectassets.com/270606/1-s2.0-S1110982322X00057/1-s2.0-S1110982322001211/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDmTepTn%2BsX%2Bs8c01q%2FJfq5aQoPmSHHfkA%2F7Aon6EzblwIhAKy6TQDKNl3x3LN2W5zNj375RedeYCGZ4zf1qpBsiyECKrMFCHsQBRoMMDU5MDAzNTQ2ODY1IgzPPEsK%2FcCsY77UezkqkAUBKurIFda9G7ZgNaxYeq2YNpVTi0LR0cQrNOZmxbbOcGp3ataqD6qm7%2BkTTn4aDKu%2F5KUJU3r7YF2MKIqcjwO7TGX1k%2Fa1uCQQn1R08v%2BzuyETFmCeispfpvWVEMDcx9SobjOGJVCik4%2BWdHt75kWinSbzYvkOHaz52mqoQBSJ20B%2BCkOZf7bTYKxt4xi0eu3DZ1H%2FOCd%2BIsXDCI5OOvQ7UpVAADeX4BvLBSZsGO%2BXAhq4L%2BVDp4%2B0z0xCrgIFf9kGLCgax%2FqWpf06cdmlpC0QvmjHyyX8f8GpJlZAkLkoFwJpzt2p3bIPUaDaQRINVhM01SRcCkidLaeTG0jM5wLrh1Rd1Pohj71CTBIk86dBXuect8EtxDKbK2RLvc6YZB2QhEyAxIwMJQHgmWz7nL3vQ%2BedbJh1oEBuTgrdPMlUSSeO2lW0IoiqV5IW0F6NP0M2KaOkB7hQD5TwzvHefMAr2O%2FD1CHPCyV4%2B%2Bs%2FRls736GujxjVwsTjgUs5EQ4rM%2B2u8ztmaiXu2uGOgCRgnrhCqHH1TYXclMolJKPDfUs2rONYaFfXnHHL4B6Oi2caZbFgzIoZEB3xmQnV88V9YOprpy45pNBfs7H%2FM5RhaPSkdWDVYSiDsC1J%2FG%2Bo1WMrT0gyDRPQaHbzbWQ6AB0XLMYPMrEWCfphYWaHfub%2FYiqRt7LsbFJq%2Fc8daMy3pQ2RQBfwNtNzYRgNecdHARmeqdrpVe1tMytXl%2FaTcJOhnxQ2ce1QYhKLPtnytLydGK4NGemd4eaP3Axxp6mK%2FCdoxjdcxSg4O9pPveJ0u3P9SJQVosFV1dSi18E9hTkWwUmyr%2FTYlvWtmHODL4Z5G6JhVf7c56F5lYVaThvgko8TUYo%2BjTDX5tusBjqwAf8Q4kY6NGjyHAH3pSOFPUbkrKi3zW8YPXMg4DZYGS3gKteLgs77auLjRWGCWU%2FZ0S2ct79mEV3hZwtjLsdlQ9NB8UgvbYJ9fIOnjwFLnMOdUtIXzkV0ZtGnciEn14h%2Bm2FFAzVWIsKvTy1%2FCJd4cfbjpShZJrqxN2%2FqYGdRhNd%2F4vvePWgNxMi%2FniIrCiHdbL7ZFts73PYPzLP8jMwAWKzUJi0FrtVx%2BilZbE7A0WF7&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240104T190803Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4HX3CLWY%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=42bf230f6ea466fa2d7bfd119483e08b6837ff49438f99658b14da3073527ac3&hash=fdae69dd07b1520fac457f89f143580277e6fe26fcfc008dffeb19627bb9799c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1110982322001211&tid=spdf-79ba099d-5ee2-4812-bb7c-56322d947388&sid=c5469bad8de66246b67a4174f830fb514c8cgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f135a56565207555958&rr=8405c4994acf288a&cc=us" ADD_DATE="1704395362" LAST_MODIFIED="1736964660">Local Geoid height calculations with GNSS, airborne, and spaceborne Lidar data</A>
+            <DT><A HREF="https://arxiv.org/pdf/2207.09503.pdf#:~:text=Similar%20to%20HDF5%2C%20netCDF4%20is,faster%20read%20times%20%5B11%5D." ADD_DATE="1704469996" LAST_MODIFIED="1736964660">2207.09503.pdf</A>
+            <DT><A HREF="https://www.hdfgroup.org/careers/" ADD_DATE="1704470155" LAST_MODIFIED="1736964660">Careers - The HDF Group</A>
+            <DT><A HREF="https://www.hdfgroup.org/" ADD_DATE="1704470179" LAST_MODIFIED="1736964660">The HDF Group - ensuring long-term access and usability of HDF data and supporting users of HDF technologies</A>
+            <DT><A HREF="https://arxiv.org/abs/1905.11946" ADD_DATE="1704652061" LAST_MODIFIED="1736964660">[1905.11946] EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks</A>
+            <DT><A HREF="https://www.calculator.net/matrix-calculator.html" ADD_DATE="1705090522" LAST_MODIFIED="1736964660">Matrix Calculator</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1694024401" LAST_MODIFIED="1736964660">Standards</H3>
+        <DL><p>
+            <DT><A HREF="https://www.iso.org/home.html" ADD_DATE="1694024370" LAST_MODIFIED="1736964660">ISO - International Organization for Standardization</A>
+            <DT><A HREF="https://www.iana.org/assignments/enterprise-numbers/" ADD_DATE="1694024810" LAST_MODIFIED="1736964660">Private Enterprise Numbers (PENs)</A>
+            <DT><A HREF="https://www.icann.org/" ADD_DATE="1694024911" LAST_MODIFIED="1736964660">Internet Corporation for Assigned Names and Numbers (ICANN)</A>
+            <DT><A HREF="https://www.arin.net/" ADD_DATE="1694025211" LAST_MODIFIED="1736964660">American Registry for Internet Numbers</A>
+            <DT><A HREF="https://www.iana.org/dnssec/files" ADD_DATE="1694028819" LAST_MODIFIED="1736964660">DNSSEC Key Signing Key</A>
+            <DT><A HREF="https://www.ogc.org/standard/i3s/" ADD_DATE="1702537135" LAST_MODIFIED="1736964660">Indexed 3D Scene Layers (I3S) - Open Geospatial Consortium</A>
+            <DT><A HREF="http://tensorlab.cms.caltech.edu/users/anima/" ADD_DATE="1702577045" LAST_MODIFIED="1736964660">Anima AI + Science Lab | Home</A>
+            <DT><A HREF="https://dgiwg.org/documents/dgiwg-standards" ADD_DATE="1704352553" LAST_MODIFIED="1736964660">DGIWG Standards | DGIWG</A>
+            <DT><A HREF="https://dgiwg.org/" ADD_DATE="1704352525" LAST_MODIFIED="1736964660">DGIWG | Defence Geospatial Information Working Group</A>
+            <DT><A HREF="https://www.iso.org/obp/ui/en/#iso:std:iso:19157:-1:ed-1:v1:en" ADD_DATE="1704352450" LAST_MODIFIED="1736964660">ISO 19157-1:2023(en), Geographic information — Data quality — Part 1: General requirements</A>
+            <DT><A HREF="https://ggim.un.org/meetings/GGIM-committee/11th-Session/side_events/M.%20Ahlin_A%20breif%20History%20of%20ISO-TC%20211.pdf" ADD_DATE="1704352057" LAST_MODIFIED="1736964660">Heading space for two lines in case the heading is long.</A>
+            <DT><A HREF="https://www.awaresystems.be/imaging/tiff/tifftags/geo_metadata.html" ADD_DATE="1704351066" LAST_MODIFIED="1736964660">Private TIFF Tag GEO_METADATA, code 50909 (0xC6DD)</A>
+            <DT><A HREF="https://en.wikipedia.org/wiki/Huffman_coding" ADD_DATE="1704353386" LAST_MODIFIED="1736964660">Huffman coding - Wikipedia</A>
+            <DT><A HREF="https://en.wikipedia.org/wiki/PackBits" ADD_DATE="1704353484" LAST_MODIFIED="1736964660">PackBits - Wikipedia</A>
+            <DT><A HREF="https://developer.nvidia.com/blog/optimizing-data-transfer-using-lossless-compression-with-nvcomp/" ADD_DATE="1704354636" LAST_MODIFIED="1736964660">Optimizing Data Transfer Using Lossless Compression with NVIDIA nvcomp | NVIDIA Technical Blog</A>
+            <DT><A HREF="https://www.originlab.com/index.aspx?pid=4373&utm_source=google&utm_medium=cpc&utm_campaign=KW_netcdf&gclid=Cj0KCQiAy9msBhD0ARIsANbk0A_x8U7WoYouca7rs-6_Wa1NGv8wl80frSFsQFlXx9rNMZ10rHN9JPMaAoLSEALw_wcB" ADD_DATE="1704357480" LAST_MODIFIED="1736964660">Working with NetCDF Climate Data in OriginPro</A>
+            <DT><A HREF="https://www.opengl.org/" ADD_DATE="1704358043" LAST_MODIFIED="1736964660">OpenGL - The Industry Standard for High Performance Graphics</A>
+            <DT><A HREF="https://sonictk.github.io/asm_tutorial/" ADD_DATE="1704387377" LAST_MODIFIED="1736964660">Understanding Windows x64 Assembly</A>
+        </DL><p>
+        <DT><A HREF="http://10.0.0.90/csd2d316dd/config/authentication_page.htm" ADD_DATE="1707602637" LAST_MODIFIED="1736964660">NG MS510TX</A>
+        <DT><H3 ADD_DATE="1710013202" LAST_MODIFIED="1736964660">JavaScript</H3>
+        <DL><p>
+            <DT><A HREF="https://maplibre.org/maplibre-gl-js/docs/examples/3d-buildings/" ADD_DATE="1710013213" LAST_MODIFIED="1736964660">Display buildings in 3D - MapLibre GL JS</A>
+            <DT><A HREF="https://openmaptiles.org/" ADD_DATE="1710013932" LAST_MODIFIED="1736964660">World maps you can self-host - powered by free OpenStreetMap vector tiles and open-source software – OpenMapTiles</A>
+            <DT><A HREF="https://maps.hillsboroughcounty.org/arcgis/rest/services" ADD_DATE="1710027488" LAST_MODIFIED="1736964660">Folder: /</A>
+            <DT><A HREF="https://esri.maps.arcgis.com/home/gallery.html?sortField=numviews&sortOrder=desc" ADD_DATE="1710032873" LAST_MODIFIED="1736964660">Gallery</A>
+        </DL><p>
+    </DL><p>
+    <DT><H3 ADD_DATE="1736960708" LAST_MODIFIED="1736960709" UNFILED_BOOKMARKS_FOLDER="true">Other Bookmarks</H3>
+    <DL><p>
+        <DT><A HREF="https://www.rfa.org/english" ADD_DATE="1706360071" LAST_MODIFIED="1736964660">Radio Free Asia</A>
+        <DT><A HREF="https://techcrunch.com/" ADD_DATE="1706360430" LAST_MODIFIED="1736964660">TechCrunch</A>
+        <DT><A HREF="https://yandex.com/" ADD_DATE="1706361153" LAST_MODIFIED="1736964660">Yandex</A>
+        <DT><A HREF="https://www.recruitmentmattersafrica.com/" ADD_DATE="1706364492" LAST_MODIFIED="1736964660">Home - Recruitment Matters</A>
+        <DT><A HREF="https://www.mozilla.org/firefox/?utm_medium=firefox-desktop&utm_source=bookmarks-toolbar&utm_campaign=new-users&utm_content=-global" ADD_DATE="1705261863" LAST_MODIFIED="1736964660" ICON_URI="fake-favicon-uri:https://www.mozilla.org/firefox/?utm_medium=firefox-desktop&utm_source=bookmarks-toolbar&utm_campaign=new-users&utm_content=-global" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAHY0lEQVR4Aa3VA5RrSdfG8f+uOidJp/umczm2ffFhbNvG9722bdv22LZt+3I81+04B1XvfpPmWHut3yk06smus1Z4L8uXDv6MHzpowA8eWFS8FaY9eU+cCvxaFfF8W/FWGDy8a6n7DM7/H96DR3ldu0MVb8a0J+9CI1qXJP11a+79GOdP1f11FW/EtCfvQpx8mziFxMHEEEV1KYkrKl6Pea1Nbnrs/7hz7q2KUQsqRcUE/eV1acb/pyFQ7b9N3fguzNTxVsXrMa/avFgPb6SnukY8W6EgXvszrszjivH08F0VLZFK0rbUgRt9H2aS+lORznUxnTMV45kJG6fNPZSGnEodTJwUFGbphqdSll/H/SxWjEc92kYxSoO0uzEcwo90g/9rlKpHpCmX491MxQgzuvjtE0UieyqxhYZA3UGp8CjUtSMR2YrkFdf+/szi9X88+zM3/uncSx/81/f+7/HzPsu8q09i8MUNcCUHUTImceAAL+RC+UW1nMzHuUvxSVGBCloTgMT+GuOLipaGyg/OpLuE/jVI58wHb/zsdxD5tBVbDMQwOPe/8UDqHYuuPJjCZnP5nw/+mfyUPhADRtkAaIfosum23klBxH8b+KzCfuczG8IPXi4C5yHQwvDoPYhCBSkz1n9y1+WLd8xFzVUxxmIRjBIBVHXFZF58aEtW3exxsp0V8Aac8gpBnGQBRNymkP4VXKPdgdj8H2JB/DgMVwreATFhdoCdj/wY8x7+GM8/djyJ81hlnCPTUWfHb/0QlyRUelalEPcCHswIQARJPd64ohh/KHBagPcQB7sggHgIVHcM0wUyWWUAoNaEuobI9bP1dj9lw1nnMvehj/LS0wdinYO4wM1f/h6z3v9n1t3pTnAWBj04ZQA7LFROwMsu7QCpgcjuCh4Asg5Wa0ImgNDqqHTOtDyIgPPKkZ/cZOstzmT+Nw4jcA5JBO9SHjzzWKZt8CRd03ohD/RZALCigIwHawBmKgKSVoAiAi2VDCzsgo0bYB04lSojEAaQDyETsmTZf3PPdZ+irvMgTTF4SAVX7+SRC/dj5/f/C6D9d5UQLBAIFBJILIhtB1g2a8uZq+1+LwiAV8CSTujPwqoRbJjCJMdAeRVue+j/WLh4T2I3jcCEhN4ShmDFYR2IAXC8OHdDaMYAYBxU82AFAgPShHoejAEgUEViy2h5UbS9LLBajf5oMr866wc0wlWQvEEyNQKbIcSSwZBNIfAO41NQ9ZXd0IgBAQdUDAQWpjQhcfi6gCgguDtTm3vIUBdhdwUA/Pggqmy49/n/pr/q8ZMq4DziEwI0QOtpiT1kXUqQRqC8ohaDy0BqoGzxOUE6q9DwMBiOvtzm5OLi3migAFEwpjnOCzmKhZXUkyr1uEwtLqky1aStNk4jqhFFDVZb6ykYMjBodQxw5RAKZUgSqAq+YmmWzFxF0P8L61Z8pHhf5/S+bfHQJm1OLcuzw4YPcWH3/qysTcebFHyESTOkhLjUokt8M8VFCVYDbLXhvdCfARfiG3lkykDr2qhbXJTRUZBAngMwootGI3tbrbcIsR3ugp3Yhbun89l9/ko+qCDVGpQruHKJqDakBmnq2KyXaDZKrDX1KWau+ij0ZqAvgwR1JFuFmihwPTkdDQN9co3C6IMnwujs0sppELcOV+NHVc2wzv2eb+74J6ZP6kGazeEgZZJqiaRWJo6qbDb5MU7c4ixYmYUhC7YJaQxVgYrgSxa3sgNftdww31+usFuvuykfWDzU/4HytL0llTVz+SbiAScTryKxFFc6dlnnQVZP+wEo2grT7ACb5V7g2BnXsVfxHsLEgfGQTYb/1kJqWpKV3VDLM1iXi/a8PDrtqmecl451DwLg8oG1DtnMmcsKq/bQ1V3BmBTsfzgIfHucwINxICivADt8eADkBLJGtcc0ydHsmU7QEXBFfzwTeFwRnLFtDoBD7nv5+vv61v2XXzHlfR7oKtQxLkFcCqkDK8qMHdIex4gSMxaoKZBtS8lQ18NtJsPSmv/Nyfc3nma4RjsA8Jnq1HU+WC9cY01z865pJQrdDcQkrW6IpGOfun3oxLnw6m/SEBIyVFbOIMhmiXJy35oL+vYDBhkuGxY3YaTuy9TLA+Jv2inu2j2ph9NrTUMmCyIGjwEnyiCtUaUWnGlLR1hIlM6rKwpUX5qBiTuI02Du94aqx8zJhEsVI4IPduUZV+7vDC0CDv9GdeolUjObL18ckutqMKkQkc2kiFHOITLCwyiUp1bNUhuYRFrrxPoMzdDM/XbUf/gZvvYsozX+Cl5d5vh690afrk3+0hR4XyoxqYmQICaTSwjClI6cA3EIvhWi0QiIm6rRgaQh1ikfsMK43/xv8YWfASuUe6sBAIzqPmNwjb1nJdnP5PDbOpPgJMXjWhDAC4JgvEWUaQkoib/o/NzQb37S1fP0+Dt/6wHGKqe6v1yZvuG+zc69p3m7d4dnW8TjAaEdwmFKEcztkfSG67KVG346aeV8YEglincRYLQClVcdKsery6lI1VVNJbyF+jdp8gPG4E08mAAAAABJRU5ErkJggg==">Getting Started</A>
+        <DT><A HREF="https://www.recruitmentmattersafrica.com/our-teams/" ADD_DATE="1706366006" LAST_MODIFIED="1736964660">Our Teams - Recruitment Matters</A>
+        <DT><A HREF="http://us.china-embassy.gov.cn/eng/zytz/202303/t20230315_11041658.htm" ADD_DATE="1706490000" LAST_MODIFIED="1736964660">Notice on New Adjustments to Chinese Visa and Entry Policies_Embassy of the People&#39;s Republic of China in the United States of America</A>
+        <DT><A HREF="https://www.nahc.io/meet-the-team" ADD_DATE="1706560723" LAST_MODIFIED="1736964660">Meet the Team - nahc.io</A>
+        <DT><A HREF="https://startup.jobs/dishwasher-spacex-4862231" ADD_DATE="1706560728" LAST_MODIFIED="1736964660">Dishwasher at SpaceX</A>
+        <DT><A HREF="https://huggingface.co/01-ai/Yi-34B" ADD_DATE="1708735708" LAST_MODIFIED="1736964660">01-ai/Yi-34B · Hugging Face</A>
+        <DT><A HREF="https://www.freecodecamp.org/news/build-gpt-4-api-chatbot-turorial/" ADD_DATE="1709577557" LAST_MODIFIED="1736964660">How to Build a ChatBot using the GPT-4 API – Full Project-Based Tutorial</A>
+        <DT><A HREF="https://docs.nvidia.com/gpudirect-storage/troubleshooting-guide/index.html#mofed-req-install" ADD_DATE="1719139464" LAST_MODIFIED="1736964660">NVIDIA GPUDirect Storage Installation and Troubleshooting Guide - NVIDIA Docs</A>
+    </DL><p>
+</DL>
+
+
+
